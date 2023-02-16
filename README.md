@@ -30,10 +30,10 @@ We will setup shared network files and permissions in this lab. We'll make folde
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/3BcBiv4.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we will Assign the "Domain Users" group the following rights. On the Domain Controller Vm, set permission for read access folder by a right click then tap properties-> share-> add group domain users-> set permission to read. For write access folder, add domain users as the group-> set permission for read/write. For no-access folder, add domian admins as the group-> set permission for read/write.
 </p>
 <br />
 
