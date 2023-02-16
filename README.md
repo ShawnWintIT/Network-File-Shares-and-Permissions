@@ -38,8 +38,32 @@ Next we will Assign the "Domain Users" group the following rights. On the Domain
 <br />
 
 <p>
-<img src=https://i.imgur.com/Ce3Pbmk.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://i.imgur.com/Ce3Pbmk.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we will go to client Vm, then navigate to file folder for the shared folders . Here we are testing if the shared folders are set correctly. As you can see, no access folder couldn't be accessed.
+</p>
 <br />
+
+<p>
+<img src=https://i.imgur.com/N4QZ7pL.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+Return to DC-1 and create a security group called "Accountants" in Active Directory.
+</P>
+<br />
+
+<p>
+<img src= https://i.imgur.com/DtMY1La.png height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+</p>
+<p>
+Head back to your accounting folder in file explorer and share it to accountants secruity groups, set permission for read/write.
+</p>
+<br /v
+
+<p>
+<img src= https://i.imgur.com/BluLCmw.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+Observe the changes. Normal users won't have access to this unique file, if we created a accountant user it would be accessable.   
+  
