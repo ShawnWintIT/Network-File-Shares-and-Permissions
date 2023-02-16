@@ -2,41 +2,30 @@
 <img src=https://i.imgur.com/uC0VxMv.png alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>Network File Shares and Permissions</h1>
+In this lesson, we'll use Wireshark to monitor various network traffic going to and coming from Azure Virtual Machines and practice using Network Security Groups. <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Shared Network Files
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2022 (Azure Edition)
 
-<h2>High-Level Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src= https://i.imgur.com/Y1jB16x.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will setup shared network files and permissions in this lab. We'll make folders in the DC-1 VM and share them over to the network, and specific files will have specific rights.Specific rights such as, read, write, no access, and accounting. Log into your DC Vm as an Admin, then log into your CLient Vm as non admin user from under your employees file in Server manager. Go into your DC VM-> windows c file-> create 4 folders in the name of read, no access, and accounting.  
 </p>
 <br />
 
