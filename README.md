@@ -65,5 +65,4 @@ Head back to your accounting folder in file explorer and share it to accountants
 <img src= https://i.imgur.com/BluLCmw.png height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Observe the changes. Normal users won't have access to this unique file, if we created a accountant user it would be accessable.   
-  
+Observe the changes. Normal users won't have access to this unique file, but we can make the user part of the member group to get access.
